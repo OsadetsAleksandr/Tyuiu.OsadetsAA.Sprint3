@@ -1,5 +1,5 @@
-using Tyuiu.OsadetsAA.Sprint3.Task1.V7.Lib;
-namespace Tyuiu.OsadetsAA.Sprint3.Task1.V7.Test
+using Tyuiu.OsadetsAA.Sprint3.Task2.V20.Lib;
+namespace Tyuiu.OsadetsAA.Sprint3.Task2.V20.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -8,13 +8,11 @@ namespace Tyuiu.OsadetsAA.Sprint3.Task1.V7.Test
         public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
-
+            int value = 1;
             int startValue = 1;
-            int stopValue = 9;
-            double value = 0.25;
-
+            int stopValue = 6;
             var res = ds.GetMultiplySeries(value, startValue, stopValue);
-            double wait = -0.93;
+            double wait = 914700.94;
             Assert.AreEqual(wait, res);
         }
     }

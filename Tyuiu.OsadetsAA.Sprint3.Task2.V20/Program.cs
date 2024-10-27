@@ -1,5 +1,5 @@
-﻿using Tyuiu.OsadetsAA.Sprint3.Task1.V7.Lib;
-namespace Tyuiu.OsadetsAA.Sprint3.Task1.V7
+﻿using Tyuiu.OsadetsAA.Sprint3.Task2.V20.Lib;
+namespace Tyuiu.OsadetsAA.Sprint3.Task2.V20
 {
     internal class Program
     {
@@ -9,22 +9,22 @@ namespace Tyuiu.OsadetsAA.Sprint3.Task1.V7
             Console.Title = ("Спринт #3 | Выполнил: Осадец А. А. | ПКТб-24-1");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема: Оператор цикла while                                              *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #7                                                              *");
+            Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Осадец Александр Александрович | ПКТб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу используя цикл while, которая вычисляет              *");
-            Console.WriteLine("* произведение ряда по формуле, при a=0,25                                *");
+            Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет         *");
+            Console.WriteLine("* произведение ряда по формуле, при х=1                                   *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             int startValue = 1;
-            int stopValue = 9;
-            double value = 0.25;
+            int stopValue = 6;
+            int value = 1;
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
