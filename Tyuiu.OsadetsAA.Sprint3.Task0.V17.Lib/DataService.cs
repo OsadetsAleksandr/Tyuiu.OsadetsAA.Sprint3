@@ -5,11 +5,11 @@ namespace Tyuiu.OsadetsAA.Sprint3.Task0.V17.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double s = 1.0;
-            int i;
-            for (i = startValue; i <= stopValue; i++)
+            double s = 0;
+            
+            for (int i = startValue; i <= stopValue; i++)
             {
-                s *= (Math.Cos(i * (1 / 2)));
+                s += (Math.Cos(i) * 0.5);
             }
             return Math.Round(s, 3);
         }
