@@ -9,7 +9,7 @@ namespace Tyuiu.OsadetsAA.Sprint3.Task0.V17.Lib
             int i;
             for (i = startValue; i <= stopValue; i++)
             {
-                s = s * (Math.Cos(i) * (1 / 2));
+                s *= (Math.Cos(i * (1 / 2)));
             }
             return Math.Round(s, 3);
         }
