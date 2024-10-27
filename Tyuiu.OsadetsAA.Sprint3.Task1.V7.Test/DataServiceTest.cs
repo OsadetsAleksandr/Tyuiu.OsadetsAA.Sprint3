@@ -5,7 +5,7 @@ namespace Tyuiu.OsadetsAA.Sprint3.Task1.V7.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetSumSeries()
+        public void ValidGetMultiplySeries()
         {
             DataService ds = new DataService();
 
